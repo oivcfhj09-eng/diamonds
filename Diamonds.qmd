@@ -1,0 +1,16 @@
+---
+title: "Diamonds Plot"
+format: html
+---
+
+```{r}
+library(ggplot2)
+
+# Get current date and time
+timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M:%S")
+
+# Plot with timestamp in the title
+ggplot(diamonds, aes(x = carat, y = price, color = cut)) +
+  geom_point(alpha = 0.5) +
+  labs(title = "Diamonds: Price vs Carat by Cut",
+        subtitle =  paste0("Created on ",timestamp))
