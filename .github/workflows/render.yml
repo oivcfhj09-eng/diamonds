@@ -1,7 +1,7 @@
 name: render.yaml
 on:
-  workflow_dispatch:
-    branches: main
+  ppush:
+    branches: master
 permissions:
   contents: write
 jobs:
