@@ -1,6 +1,6 @@
 name: render.yaml
 on:
-  ppush:
+  push:
     branches: master
 permissions:
   contents: write
