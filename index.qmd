@@ -14,3 +14,4 @@ ggplot(diamonds, aes(x = carat, y = price, color = cut)) +
   geom_point(alpha = 0.5) +
   labs(title = "Diamonds: Price vs Carat by Cut",
         subtitle =  paste0("Created on ",timestamp))
+```
