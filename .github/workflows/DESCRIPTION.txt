@@ -1,0 +1,8 @@
+Package: diamondsplot
+Title: Diamonds Plot Quarto Project
+Version: 0.1.0
+Authors@R: person("Jono", "Brody-Felber", email = "oivcfhj09@gmail.com", role = c("aut", "cre"))
+Description: A Quarto document that visualizes the diamonds dataset using ggplot2.
+Depends: R (>= 4.0)
+Imports:
+    ggplot2
