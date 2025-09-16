@@ -1,6 +1,6 @@
 name: render.yaml
 on:
-  push:
+  workflow_dispatch:
     branches: main
 permissions:
   contents: write
